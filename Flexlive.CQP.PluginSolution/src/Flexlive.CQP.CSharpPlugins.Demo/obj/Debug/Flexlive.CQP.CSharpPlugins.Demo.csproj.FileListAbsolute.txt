@@ -1,0 +1,7 @@
+E:\Desktop\【无需代理】Flexlive版C#酷Q开发解决方案（1.1正式版）\Flexlive.CQP.PluginSolution\Bin\Flexlive.CQP.CSharpPlugins.Demo.dll
+E:\Desktop\【无需代理】Flexlive版C#酷Q开发解决方案（1.1正式版）\Flexlive.CQP.PluginSolution\Bin\Flexlive.CQP.CSharpPlugins.Demo.pdb
+E:\Desktop\【无需代理】Flexlive版C#酷Q开发解决方案（1.1正式版）\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Debug\Flexlive.CQP.CSharpPlugins.Demo.csprojResolveAssemblyReference.cache
+E:\Desktop\【无需代理】Flexlive版C#酷Q开发解决方案（1.1正式版）\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Debug\Flexlive.CQP.CSharpPlugins.Demo.FormSettings.resources
+E:\Desktop\【无需代理】Flexlive版C#酷Q开发解决方案（1.1正式版）\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Debug\Flexlive.CQP.CSharpPlugins.Demo.csproj.GenerateResource.Cache
+E:\Desktop\【无需代理】Flexlive版C#酷Q开发解决方案（1.1正式版）\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Debug\Flexlive.CQP.CSharpPlugins.Demo.dll
+E:\Desktop\【无需代理】Flexlive版C#酷Q开发解决方案（1.1正式版）\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Debug\Flexlive.CQP.CSharpPlugins.Demo.pdb

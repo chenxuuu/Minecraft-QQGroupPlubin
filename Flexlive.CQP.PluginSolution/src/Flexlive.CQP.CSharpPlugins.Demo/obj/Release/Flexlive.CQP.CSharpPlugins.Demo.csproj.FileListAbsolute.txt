@@ -1,0 +1,28 @@
+E:\Desktop\【无需代理】Flexlive版C#酷Q开发解决方案（1.1正式版）\Flexlive.CQP.PluginSolution\Bin\Flexlive.CQP.CSharpPlugins.Demo.dll
+E:\Desktop\【无需代理】Flexlive版C#酷Q开发解决方案（1.1正式版）\Flexlive.CQP.PluginSolution\Bin\Flexlive.CQP.CSharpPlugins.Demo.pdb
+E:\Desktop\【无需代理】Flexlive版C#酷Q开发解决方案（1.1正式版）\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\Flexlive.CQP.CSharpPlugins.Demo.FormSettings.resources
+E:\Desktop\【无需代理】Flexlive版C#酷Q开发解决方案（1.1正式版）\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\Flexlive.CQP.CSharpPlugins.Demo.csproj.GenerateResource.Cache
+E:\Desktop\【无需代理】Flexlive版C#酷Q开发解决方案（1.1正式版）\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\Flexlive.CQP.CSharpPlugins.Demo.dll
+E:\Desktop\【无需代理】Flexlive版C#酷Q开发解决方案（1.1正式版）\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\Flexlive.CQP.CSharpPlugins.Demo.pdb
+E:\Desktop\【无需代理】Flexlive版C#酷Q开发解决方案（1.1正式版）\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\Flexlive.CQP.CSharpPlugins.Demo.csprojResolveAssemblyReference.cache
+E:\Desktop\不明物体\酷Q Air\CSharpPlugins\Flexlive.CQP.CSharpPlugins.Demo.dll
+E:\Desktop\不明物体\酷Q Air\CSharpPlugins\Flexlive.CQP.CSharpPlugins.Demo.pdb
+E:\刘晨旭\作品\exe作品\qq自定义回复\Flexlive.CQP.PluginSolution\Bin\Flexlive.CQP.CSharpPlugins.Demo.dll
+E:\刘晨旭\作品\exe作品\qq自定义回复\Flexlive.CQP.PluginSolution\Bin\Flexlive.CQP.CSharpPlugins.Demo.pdb
+E:\刘晨旭\作品\exe作品\qq自定义回复\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\Flexlive.CQP.CSharpPlugins.Demo.FormSettings.resources
+E:\刘晨旭\作品\exe作品\qq自定义回复\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\Flexlive.CQP.CSharpPlugins.Demo.csproj.GenerateResource.Cache
+E:\刘晨旭\作品\exe作品\qq自定义回复\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\Flexlive.CQP.CSharpPlugins.Demo.dll
+E:\刘晨旭\作品\exe作品\qq自定义回复\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\Flexlive.CQP.CSharpPlugins.Demo.pdb
+E:\刘晨旭\作品\exe作品\qq自定义回复\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\Flexlive.CQP.CSharpPlugins.Demo.csprojResolveAssemblyReference.cache
+E:\刘晨旭\作品\exe作品\qq-replay-addon\Flexlive.CQP.PluginSolution\Bin\Flexlive.CQP.CSharpPlugins.Demo.dll
+E:\刘晨旭\作品\exe作品\qq-replay-addon\Flexlive.CQP.PluginSolution\Bin\Flexlive.CQP.CSharpPlugins.Demo.pdb
+E:\刘晨旭\作品\exe作品\qq-replay-addon\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\Flexlive.CQP.CSharpPlugins.Demo.FormSettings.resources
+E:\刘晨旭\作品\exe作品\qq-replay-addon\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\Flexlive.CQP.CSharpPlugins.Demo.csproj.GenerateResource.Cache
+E:\刘晨旭\作品\exe作品\qq-replay-addon\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\Flexlive.CQP.CSharpPlugins.Demo.dll
+E:\刘晨旭\作品\exe作品\qq-replay-addon\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\Flexlive.CQP.CSharpPlugins.Demo.pdb
+E:\Desktop\Flexlive.CQP.PluginSolution\Bin\mcmsg.dll
+E:\Desktop\Flexlive.CQP.PluginSolution\Bin\mcmsg.pdb
+E:\Desktop\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\Flexlive.CQP.CSharpPlugins.Demo.FormSettings.resources
+E:\Desktop\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\Flexlive.CQP.CSharpPlugins.Demo.csproj.GenerateResource.Cache
+E:\Desktop\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\mcmsg.dll
+E:\Desktop\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\mcmsg.pdb
