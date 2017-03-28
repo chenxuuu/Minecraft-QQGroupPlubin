@@ -80,6 +80,19 @@ public class Qqplugin extends JavaPlugin implements Listener
 		                	{
 		                		Bukkit.broadcastMessage(sourceStrArray[i]);
 		                	}
+		                	else if(sourceStrArray[i].indexOf("command>")!=-1)
+		                	{
+		                		Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), sourceStrArray[i].replace("command>", ""));
+		                		if(player!="none233")
+		                		{
+		                			msg+="]][[<提示>"+sourceStrArray[i].replace("command>", "")+"已执行";
+		                		}
+		                		else
+		                		{
+		                			player="ok";
+		                			msg="<提示>"+sourceStrArray[i].replace("command>", "")+"已执行";
+		                		}
+		                	}
 		                }
 		                //Bukkit.broadcastMessage("debug:"+info);
 		                //4.关闭资源

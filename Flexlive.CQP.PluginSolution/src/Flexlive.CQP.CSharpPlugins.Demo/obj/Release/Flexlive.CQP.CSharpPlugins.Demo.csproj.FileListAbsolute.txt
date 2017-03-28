@@ -26,3 +26,9 @@ E:\Desktop\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\R
 E:\Desktop\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\Flexlive.CQP.CSharpPlugins.Demo.csproj.GenerateResource.Cache
 E:\Desktop\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\mcmsg.dll
 E:\Desktop\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\mcmsg.pdb
+E:\Desktop\Minecraft-QQGroupPlubin\Flexlive.CQP.PluginSolution\Bin\mcmsg.dll
+E:\Desktop\Minecraft-QQGroupPlubin\Flexlive.CQP.PluginSolution\Bin\mcmsg.pdb
+E:\Desktop\Minecraft-QQGroupPlubin\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\Flexlive.CQP.CSharpPlugins.Demo.FormSettings.resources
+E:\Desktop\Minecraft-QQGroupPlubin\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\Flexlive.CQP.CSharpPlugins.Demo.csproj.GenerateResource.Cache
+E:\Desktop\Minecraft-QQGroupPlubin\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\mcmsg.dll
+E:\Desktop\Minecraft-QQGroupPlubin\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\mcmsg.pdb

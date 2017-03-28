@@ -67,7 +67,7 @@ namespace Flexlive.CQP.CSharpPlugins.Demo
                 int receiveNumber;
                 receiveNumber = myClientSocket.Receive(result);
                 //Console.WriteLine("接收客户端 {0} 消息{1}", myClientSocket.RemoteEndPoint.ToString(), Encoding.UTF8.GetString(result, 0, receiveNumber));
-                string replay = Encoding.ASCII.GetString(result, 0, receiveNumber);
+                string replay = Encoding.UTF8.GetString(result, 0, receiveNumber);
                 if (replay.IndexOf("<") != -1)
                 {
                     if (replay.IndexOf("]][[") != -1)
@@ -88,8 +88,8 @@ namespace Flexlive.CQP.CSharpPlugins.Demo
                         CQ.SendGroupMessage(GroupSet, replay);
                     }
                 }
-                clientSocket.Send(Encoding.ASCII.GetBytes("ok233"));
-                clientSocket.Send(Encoding.ASCII.GetBytes(mcmsg));
+                clientSocket.Send(Encoding.UTF8.GetBytes("ok233"));
+                clientSocket.Send(Encoding.UTF8.GetBytes(mcmsg));
                 mcmsg = "";
 
                 myClientSocket.Shutdown(SocketShutdown.Both);
@@ -175,6 +175,18 @@ namespace Flexlive.CQP.CSharpPlugins.Demo
                 {
                     CQ.SendPrivateMessage(fromQQ, "检测到你没有绑定服务器id，请回复“绑定id”来绑定（没空格），如：\r\n绑定notch\r\n（来自Minecraft/QQ联动插件 by chenxuuu）");
                 }
+
+                if (replay_get(1, fromQQ.ToString() + "admin") == "admin" && msg.IndexOf("命令") == 0)
+                {
+                    mcmsg += "|||||command>" + msg.Replace("命令", "");
+                }
+                else if (msg.IndexOf("命令") == 0)
+                {
+                    if (reply != "")
+                    {
+                        CQ.SendGroupMessage(fromGroup, "封禁" + reply + "命令执行成功！（雾");
+                    }
+                }
             }
         }
 
@@ -192,64 +204,18 @@ namespace Flexlive.CQP.CSharpPlugins.Demo
         {
             dircheck(group);
             XElement root = XElement.Load(path + group + ".xml");
-            string[] replay_str = new string[50];
-            int count = 0;
-            Random ran = new Random(System.DateTime.Now.Millisecond);
-            int RandKey;
             string ansall = "";
             foreach (XElement mm in root.Elements("msginfo"))
             {
-                if (msg.IndexOf(mm.Element("msg").Value) != -1 && count < 50)
+                if (msg.IndexOf(mm.Element("msg").Value) != -1)
                 {
-                    replay_str[count] = mm.Element("ans").Value;
-                    count++;
+                    ansall = mm.Element("ans").Value;
+                    break;
                 }
-            }
-            if (count != 0)
-            {
-                RandKey = ran.Next(0, count);
-                ansall = replay_str[RandKey];
             }
 
             return ansall;
         }
-
-        public static string list_get(long group, string msg)
-        {
-            dircheck(group);
-            XElement root = XElement.Load(path + group + ".xml");
-            int count = 0;
-            string ansall = "";
-            foreach (XElement mm in root.Elements("msginfo"))
-            {
-                if (msg == mm.Element("msg").Value)
-                {
-                    ansall = ansall + mm.Element("ans").Value + "\r\n";
-                    count++;
-                }
-            }
-            ansall = ansall + "一共有" + count.ToString() + "条回复";
-            return ansall;
-        }
-
-
-        public static void remove(long group, string msg, string ans)
-        {
-            dircheck(group);
-            string gg = group.ToString();
-            XElement root = XElement.Load(path + group + ".xml");
-
-            var element = from ee in root.Elements()
-                          where (string)ee.Element("msg") == msg && (string)ee.Element("ans") == ans
-                          select ee;
-            if (element.Count() > 0)
-            {
-                element.First().Remove();
-            }
-            root.Save(path + group + ".xml");
-        }
-
-
 
         public static void insert(long group, string msg, string ans)
         {
@@ -276,8 +242,8 @@ namespace Flexlive.CQP.CSharpPlugins.Demo
             XElement root = new XElement("Categories",
                 new XElement("msginfo",
                     //new XElement("group", 123),
-                    new XElement("msg", "初始问题"),
-                    new XElement("ans", "初始回答")
+                    new XElement("msg", "msg"),
+                    new XElement("ans", "ans")
                     )
                );
             root.Save(path + group + ".xml");
