@@ -67,7 +67,7 @@ namespace Flexlive.CQP.CSharpPlugins.Demo
                 int receiveNumber;
                 receiveNumber = myClientSocket.Receive(result);
                 //Console.WriteLine("接收客户端 {0} 消息{1}", myClientSocket.RemoteEndPoint.ToString(), Encoding.UTF8.GetString(result, 0, receiveNumber));
-                string replay = Encoding.UTF8.GetString(result, 0, receiveNumber);
+                string replay = Encoding.Default.GetString(result, 0, receiveNumber);
                 if (replay.IndexOf("<") != -1)
                 {
                     if (replay.IndexOf("]][[") != -1)
@@ -173,7 +173,14 @@ namespace Flexlive.CQP.CSharpPlugins.Demo
                 }
                 else
                 {
-                    CQ.SendPrivateMessage(fromQQ, "检测到你没有绑定服务器id，请回复“绑定id”来绑定（没空格），如：\r\n绑定notch\r\n（来自Minecraft/QQ联动插件 by chenxuuu）");
+                    if (msg.IndexOf("绑定") == 0)
+                    {
+                        CQ.SendGroupMessage(fromGroup, CQ.CQCode_At(fromQQ) + "\r\n你眼瞎吗，我让你私聊我来绑定id");
+                    }
+                    else
+                    {
+                        CQ.SendGroupMessage(fromGroup, CQ.CQCode_At(fromQQ) + "\r\n检测到你没有绑定服务器id，请私聊我发送“绑定id”来绑定（没空格），如：\r\n绑定notch\r\n长时间未绑定你将会被移出本群");
+                    }
                 }
 
                 if (replay_get(1, fromQQ.ToString() + "admin") == "admin" && msg.IndexOf("命令") == 0)
@@ -187,6 +194,7 @@ namespace Flexlive.CQP.CSharpPlugins.Demo
                         CQ.SendGroupMessage(fromGroup, "封禁" + reply + "命令执行成功！（雾");
                     }
                 }
+
             }
         }
 

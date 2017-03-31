@@ -32,3 +32,4 @@ E:\Desktop\Minecraft-QQGroupPlubin\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.
 E:\Desktop\Minecraft-QQGroupPlubin\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\Flexlive.CQP.CSharpPlugins.Demo.csproj.GenerateResource.Cache
 E:\Desktop\Minecraft-QQGroupPlubin\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\mcmsg.dll
 E:\Desktop\Minecraft-QQGroupPlubin\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\mcmsg.pdb
+E:\Desktop\Minecraft-QQGroupPlubin\Flexlive.CQP.PluginSolution\src\Flexlive.CQP.CSharpPlugins.Demo\obj\Release\Flexlive.CQP.CSharpPlugins.Demo.csprojResolveAssemblyReference.cache
