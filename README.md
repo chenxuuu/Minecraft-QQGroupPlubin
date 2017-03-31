@@ -28,6 +28,10 @@
 
 ================================
 
+请自行修改编码（utf8/ansi）
+
+===========
+
 by晨旭 chenxublog.com
 
 糖拌苦力怕服务器sweetcreeper.com
